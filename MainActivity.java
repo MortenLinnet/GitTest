@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void lol(View view) {
-
+        Toast.makeText(this, "lollll", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "You pressed a button congratz", Toast.LENGTH_SHORT).show();
     }
 }
